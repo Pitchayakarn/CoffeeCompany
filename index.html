@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Company Quiz Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Coffee Company Quiz Game</h1>
+    </header>
+
+    <main>
+        <section id="gameSetupArea">
+            <h2>Game Setup</h2>
+            <div>
+                <label for="playerNameInput">Enter your name:</label>
+                <input type="text" id="playerNameInput" placeholder="Your Name">
+            </div>
+            <button id="startGameButton">Start Game</button>
+        </section>
+
+        <section id="quizArea" style="display: none;">
+            <div id="quizHeader">
+                <p id="questionNumber">Question X of Y</p>
+                <p id="scoreDisplay">Score: 0</p>
+            </div>
+            <div id="questionText">
+                <p>This is where the question text will appear.</p>
+            </div>
+            <div id="answerButtons" class="answer-buttons-container">
+                <!-- Answer buttons will be dynamically generated here -->
+            </div>
+            <p id="feedbackText"></p>
+        </section>
+
+        <section id="endGameArea" style="display: none;">
+            <h2>Quiz Over!</h2>
+            <p id="finalScoreText">Your final score is: Z</p>
+            <button id="playAgainButton">Play Again</button>
+        </section>
+
+        <section id="scoreboardArea">
+            <h2>High Scores</h2>
+            <ul id="scoreboardList">
+                <!-- Scoreboard items will be dynamically generated here -->
+                <li>Player 1 - 15/20</li>
+                <li>Player 2 - 10/20</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Coffee Quiz Masters. Powered by Coffee Company insights.</p>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
