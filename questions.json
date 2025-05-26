@@ -1,0 +1,502 @@
+[
+  {
+    "question": "What is the core philosophy of Coffee Company?",
+    "options": {
+      "A": "Quality Above All",
+      "B": "Coffee Change The World",
+      "C": "The Best Beans, The Best Price",
+      "D": "Fast and Friendly Service"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "How does Coffee Company view coffee?",
+    "options": {
+      "A": "As just a beverage",
+      "B": "As a luxury item",
+      "C": "As a force that can drive sustainable change",
+      "D": "As a quick energy boost"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "What is one way Coffee Company empowers local farmers?",
+    "options": {
+      "A": "By offering them free coffee",
+      "B": "By ensuring they have a stable income and resources",
+      "C": "By buying their farms",
+      "D": "By providing them with housing"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "How does Coffee Company promote sustainable consumption?",
+    "options": {
+      "A": "By offering discounts on single-use cups",
+      "B": "By using environmentally friendly packaging and encouraging reusable cups",
+      "C": "By selling coffee in bulk only",
+      "D": "By sourcing beans from only one country"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "What is the Coffee Company's approach to business growth?",
+    "options": {
+      "A": "Profit is the only goal",
+      "B": "Balancing business growth with social and environmental responsibilities",
+      "C": "Rapid expansion at any cost",
+      "D": "Focusing solely on market share"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "What was the initial dream behind starting Coffee Company?",
+    "options": {
+      "A": "To become the largest coffee chain in Thailand",
+      "B": "To contribute to global change and foster social development",
+      "C": "To exclusively serve Italian coffee",
+      "D": "To create the most expensive coffee blend"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Who is the co-founder of Coffee Company mentioned in the text?",
+    "options": {
+      "A": "Francesco Illy",
+      "B": "Donut Somjai Chaisrihad",
+      "C": "RK Biz Center",
+      "D": "The text does not mention a co-founder"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "In what year did Coffee Company start its operations?",
+    "options": {
+      "A": "1933",
+      "B": "2025",
+      "C": "2021",
+      "D": "The text does not specify a start year"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "What is Coffee Company's commitment regarding its environmental impact?",
+    "options": {
+      "A": "To ignore it as coffee is a natural product",
+      "B": "To reduce it as much as possible",
+      "C": "To offset it by planting trees",
+      "D": "To only focus on social impact"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "What is the philosophy of Coffee Company regarding its employees?",
+    "options": {
+      "A": "Employees are easily replaceable",
+      "B": "Employees are the most important asset and can grow to be leaders",
+      "C": "Only senior management is important",
+      "D": "Part-time employees have no career path"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "What brand of coffee, originating from Trieste, Italy, does Coffee Company feature?",
+    "options": {
+      "A": "Domiko Blend",
+      "B": "La Marzocco",
+      "C": "illy",
+      "D": "MAS Cafe"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Who founded the illy coffee brand?",
+    "options": {
+      "A": "Donut Somjai Chaisrihad",
+      "B": "Francesco Illy",
+      "C": "The text does not mention the founder",
+      "D": "An anonymous Italian group"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "What is a notable innovation of the illy brand?",
+    "options": {
+      "A": "The Domiko Blend",
+      "B": "Eco-friendly packaging",
+      "C": "The Iperespresso system",
+      "D": "Cheese Toast recipe"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Where are Coffee Company's primary Arabica beans sourced from?",
+    "options": {
+      "A": "Trieste, Italy",
+      "B": "Doi Chang Village, Chiang Rai, Thailand",
+      "C": "Ethiopia",
+      "D": "Columbia"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "What characteristic is highlighted about the soil in Doi Chang?",
+    "options": {
+      "A": "It is volcanic",
+      "B": "It is sandy",
+      "C": "It is mineral-rich",
+      "D": "It is artificially fertilized"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "What was the original name of Coffee Company?",
+    "options": {
+      "A": "Illy Cafe",
+      "B": "Domiko Coffee",
+      "C": "MAS Cafe",
+      "D": "Chiang Rai Coffee House"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "What is described as a 'timeless favorite' and the 'best-selling item' at Coffee Company?",
+    "options": {
+      "A": "Illy Espresso",
+      "B": "Domiko Blend Latte",
+      "C": "Cheese Toast",
+      "D": "Special Matcha"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "How is the Cheese Toast at Coffee Company prepared?",
+    "options": {
+      "A": "Using a fully automated machine",
+      "B": "With a new recipe daily",
+      "C": "Using traditional handmade methods",
+      "D": "It's outsourced from another bakery"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "What type of coffee machines does Coffee Company use for its On-Site Coffee Booth Service?",
+    "options": {
+      "A": "Standard home espresso machines",
+      "B": "Iperespresso machines",
+      "C": "La Marzocco machines",
+      "D": "Custom-built machines"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "What is the House Blend of Coffee Company called?",
+    "options": {
+      "A": "Illy Classic",
+      "B": "Domiko Blend",
+      "C": "Chiang Rai Special",
+      "D": "MAS Blend"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Which countries are mentioned as sources for illy's Specialty Coffee selections?",
+    "options": {
+      "A": "Brazil, Vietnam, Indonesia",
+      "B": "Italy, France, Spain",
+      "C": "Ethiopia, Columbia, Nicaragua",
+      "D": "Thailand, Laos, Myanmar"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "What non-coffee specialty beverage does Coffee Company offer, imported from Japan?",
+    "options": {
+      "A": "Thai Iced Tea",
+      "B": "Special Matcha",
+      "C": "Classic Chocolate",
+      "D": "Fresh Milk"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "How is the Special Matcha prepared at Coffee Company's booths?",
+    "options": {
+      "A": "Using an instant powder mix",
+      "B": "By brewing it like tea",
+      "C": "Using traditional methods, whisking it to create foam",
+      "D": "It's pre-made and bottled"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "What is emphasized about the baristas at Coffee Company's events?",
+    "options": {
+      "A": "They only focus on making coffee quickly",
+      "B": "They are skilled, well-trained, and passionate about service",
+      "C": "They are temporary staff with minimal training",
+      "D": "They are not allowed to interact with guests"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "How does the quality of menu items at Coffee Company's On-Site Booth compare to their cafe?",
+    "options": {
+      "A": "It's a simplified, lower-quality version",
+      "B": "It uses different, cheaper ingredients",
+      "C": "It uses the same recipes and ingredients, ensuring consistent quality",
+      "D": "It focuses only on coffee, no other menu items"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "What is the starting price for the 'Package Basic' On-Site Coffee Booth service (100 cups)?",
+    "options": {
+      "A": "15,000 Baht",
+      "B": "12,000 Baht",
+      "C": "10,000 Baht",
+      "D": "20,000 Baht"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "How many classic coffee menu items are included in the 'Package Basic'?",
+    "options": {
+      "A": "3",
+      "B": "5",
+      "C": "9",
+      "D": "14"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "What is the cost for every additional 50 cups in the 'Package Basic (illy)'?",
+    "options": {
+      "A": "3,000 Baht",
+      "B": "5,000 Baht",
+      "C": "6,000 Baht",
+      "D": "1,500 Baht"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "The 'Package Silver' includes classic coffee menus and how many other non-coffee menu items?",
+    "options": {
+      "A": "2",
+      "B": "4",
+      "C": "6",
+      "D": "0 (only coffee)"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "What is the starting price for the 'Package Gold' On-Site Coffee Booth service (100 cups)?",
+    "options": {
+      "A": "10,000 Baht",
+      "B": "12,000 Baht",
+      "C": "15,000 Baht",
+      "D": "20,000 Baht"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "How many total menu items are included in the 'Package Gold (illy)'?",
+    "options": {
+      "A": "9",
+      "B": "14",
+      "C": "16",
+      "D": "5"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Which package includes 'Iced / Hot Drip Coffee'?",
+    "options": {
+      "A": "Package Basic",
+      "B": "Package Silver",
+      "C": "Package Gold",
+      "D": "Package Signature"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "What is the starting price for the 'Package Signature (illy)' for 100 cups?",
+    "options": {
+      "A": "15,000 Baht",
+      "B": "20,000 Baht",
+      "C": "25,000 Baht",
+      "D": "17,000 Baht"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "What is the cost for every additional 50 cups in the 'Package Signature'?",
+    "options": {
+      "A": "3,000 Baht",
+      "B": "5,000 Baht",
+      "C": "6,000 Baht",
+      "D": "1,500 Baht"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "What is the primary service area for the On-Site Coffee Booth?",
+    "options": {
+      "A": "All of Thailand",
+      "B": "Bangkok",
+      "C": "Chiang Rai only",
+      "D": "Globally"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "What is included in the On-Site Coffee Booth service fee, besides coffee?",
+    "options": {
+      "A": "Only coffee and cups",
+      "B": "Coffee machine, equipment, table, packaging, ingredients, staff, setup/teardown",
+      "C": "Venue rental",
+      "D": "Marketing for the event"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "What is the minimum number of cups for the On-Site Coffee Booth service?",
+    "options": {
+      "A": "50 cups",
+      "B": "100 cups",
+      "C": "150 cups",
+      "D": "No minimum"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "What is the maximum service duration for the On-Site Coffee Booth, unless overtime is paid?",
+    "options": {
+      "A": "1 hour",
+      "B": "2 hours",
+      "C": "3 hours or until cups run out",
+      "D": "Unlimited time"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "What is the overtime charge per hour for the On-Site Coffee Booth service?",
+    "options": {
+      "A": "500 Baht",
+      "B": "1,000 Baht",
+      "C": "1,500 Baht",
+      "D": "2,000 Baht"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "What happens if the event ends or time is up, but not all ordered cups have been used?",
+    "options": {
+      "A": "The remaining coffee is given to the event host",
+      "B": "A refund is issued for unused cups",
+      "C": "Coffee Company reserves the right to take back all ingredients and packaging",
+      "D": "The booth stays until all cups are served, regardless of time"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Where is the Coffee Company branch mentioned in the text located?",
+    "options": {
+      "A": "Doi Chang, Chiang Rai",
+      "B": "Trieste, Italy",
+      "C": "RK Biz Center, Lat Krabang, Bangkok",
+      "D": "The text does not specify a branch location"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "What is the phone number provided for Coffee Company?",
+    "options": {
+      "A": "The text does not provide a phone number",
+      "B": "02-474-0153",
+      "C": "1900-COFFEE",
+      "D": "It varies by branch"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "What is the email address provided for Coffee Company?",
+    "options": {
+      "A": "info@coffeecompany.asia",
+      "B": "careers@coffeecompany.asia",
+      "C": "sales@coffeecompany.asia",
+      "D": "The text does not provide a general email, only for careers"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "What unconventional payment method does Coffee Company accept, according to the footer?",
+    "options": {
+      "A": "Gold Bullion",
+      "B": "Barter System",
+      "C": "Bitcoin (via Bitcoin Lightning Network)",
+      "D": "Foreign Currencies Only"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "What year is mentioned in the copyright notice for Coffee Company (Thailand)?",
+    "options": {
+      "A": "2021",
+      "B": "2023",
+      "C": "2024",
+      "D": "2025"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Which of these is NOT listed as a classic coffee menu item in the 'Package Basic'?",
+    "options": {
+      "A": "Hot Espresso",
+      "B": "Iced Caffe Latte",
+      "C": "Iced Orange Coffee",
+      "D": "Hot Caffe Mocha"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Which illy Specialty Coffee origin is NOT listed?",
+    "options": {
+      "A": "Ethiopia",
+      "B": "Columbia",
+      "C": "Brazil",
+      "D": "Nicaragua"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "What is the quality of matcha used by Coffee Company described as?",
+    "options": {
+      "A": "Standard food grade",
+      "B": "Nearly ceremonial grade",
+      "C": "Culinary grade",
+      "D": "Sweetened matcha mix"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "What does Coffee Company aim to provide regarding its coffee, according to 'The Dream' section?",
+    "options": {
+      "A": "The cheapest coffee available",
+      "B": "Only exotic and rare coffee beans",
+      "C": "Premium coffee from sustainable farms at accessible prices",
+      "D": "Coffee exclusively for businesses"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "What is the career path philosophy at Coffee Company?",
+    "options": {
+      "A": "Limited growth opportunities",
+      "B": "Career paths are only for full-time staff",
+      "C": "All positions can grow to leadership, with clear career paths",
+      "D": "Promotion is based solely on seniority"
+    },
+    "answer": "C"
+  }
+]
