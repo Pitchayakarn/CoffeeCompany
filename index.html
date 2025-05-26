@@ -13,41 +13,43 @@
     </header>
 
     <main>
-        <section id="gameSetupArea">
-            <h2>ตั้งค่าเกม</h2>
-            <div>
-                <label for="playerNameInput">ใส่ชื่อของคุณ:</label>
-                <input type="text" id="playerNameInput" placeholder="ชื่อของคุณ">
-            </div>
-            <button id="startGameButton">เริ่มเกม</button>
-        </section>
+        <div class="game-wrapper"> {/* Added game-wrapper */}
+            <section id="gameSetupArea">
+                <h2>ตั้งค่าเกม</h2>
+                <div>
+                    <label for="playerNameInput">ใส่ชื่อของคุณ:</label>
+                    <input type="text" id="playerNameInput" placeholder="ชื่อของคุณ">
+                </div>
+                <button id="startGameButton">เริ่มเกม</button>
+            </section>
 
-        <section id="quizArea" style="display: none;">
-            <div id="quizHeader">
-                <p id="questionNumber">คำถามที่ X จาก Y</p>
-                <p id="scoreDisplay">คะแนน: 0</p>
-            </div>
-            <div id="questionText">
-                <p>เนื้อหาคำถามจะปรากฏที่นี่</p>
-            </div>
-            <div id="answerButtons" class="answer-buttons-container">
-                <!-- Answer buttons will be dynamically generated here -->
-            </div>
-            <p id="feedbackText"></p>
-        </section>
+            <section id="quizArea" style="display: none;">
+                <div id="quizHeader">
+                    <p id="questionNumber">คำถามที่ X จาก Y</p>
+                    <p id="scoreDisplay">คะแนน: 0</p>
+                </div>
+                <div id="questionText">
+                    <p>เนื้อหาคำถามจะปรากฏที่นี่</p>
+                </div>
+                <div id="answerButtons" class="answer-buttons-container">
+                    <!-- Answer buttons will be dynamically generated here -->
+                </div>
+                <p id="feedbackText"></p>
+            </section>
 
-        <section id="endGameArea" style="display: none;">
-            <h2>สิ้นสุดเกม!</h2>
-            <p id="finalScoreText">คะแนนสุดท้ายของคุณคือ: Z</p>
-            <button id="playAgainButton">เล่นอีกครั้ง</button>
-        </section>
+            <section id="endGameArea" style="display: none;">
+                <h2>สิ้นสุดเกม!</h2>
+                <p id="finalScoreText">คะแนนสุดท้ายของคุณคือ: Z</p>
+                <button id="playAgainButton">เล่นอีกครั้ง</button>
+            </section>
 
-        <section id="scoreboardArea">
-            <h2>ตารางคะแนน</h2>
-            <ul id="scoreboardList">
-                <!-- Scoreboard items will be dynamically generated here -->
-            </ul>
-        </section>
+            <section id="scoreboardArea">
+                <h2>ตารางคะแนน</h2>
+                <ul id="scoreboardList">
+                    <!-- Scoreboard items will be dynamically generated here -->
+                </ul>
+            </section>
+        </div> {/* Closing game-wrapper */}
     </main>
 
     <footer>

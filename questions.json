@@ -1,106 +1,106 @@
 [
   {
-    "question": "What is the core philosophy of Coffee Company?",
+    "question": "ปรัชญาหลักของ Coffee Company คืออะไร?",
     "options": {
-      "A": "Quality Above All",
+      "A": "คุณภาพเหนือสิ่งอื่นใด",
       "B": "Coffee Change The World",
-      "C": "The Best Beans, The Best Price",
-      "D": "Fast and Friendly Service"
+      "C": "เมล็ดกาแฟที่ดีที่สุด ในราคาที่ดีที่สุด",
+      "D": "บริการที่รวดเร็วและเป็นกันเอง"
     },
     "answer": "B"
   },
   {
-    "question": "How does Coffee Company view coffee?",
+    "question": "Coffee Company มองกาแฟอย่างไร?",
     "options": {
-      "A": "As just a beverage",
-      "B": "As a luxury item",
-      "C": "As a force that can drive sustainable change",
-      "D": "As a quick energy boost"
+      "A": "เป็นเพียงเครื่องดื่มชนิดหนึ่ง",
+      "B": "เป็นสินค้าฟุ่มเฟือย",
+      "C": "เป็นพลังที่สามารถขับเคลื่อนการเปลี่ยนแปลงที่ยั่งยืนได้",
+      "D": "เป็นตัวช่วยเพิ่มพลังงานอย่างรวดเร็ว"
     },
     "answer": "C"
   },
   {
-    "question": "What is one way Coffee Company empowers local farmers?",
+    "question": "วิธีหนึ่งที่ Coffee Company ช่วยส่งเสริมเกษตรกรในท้องถิ่นคืออะไร?",
     "options": {
-      "A": "By offering them free coffee",
-      "B": "By ensuring they have a stable income and resources",
-      "C": "By buying their farms",
-      "D": "By providing them with housing"
+      "A": "โดยการเสนอกาแฟฟรีให้พวกเขา",
+      "B": "โดยการรับประกันว่าพวกเขามีรายได้และทรัพยากรที่มั่นคง",
+      "C": "โดยการซื้อฟาร์มของพวกเขา",
+      "D": "โดยการจัดหาที่อยู่อาศัยให้พวกเขา"
     },
     "answer": "B"
   },
   {
-    "question": "How does Coffee Company promote sustainable consumption?",
+    "question": "Coffee Company ส่งเสริมการบริโภคที่ยั่งยืนอย่างไร?",
     "options": {
-      "A": "By offering discounts on single-use cups",
-      "B": "By using environmentally friendly packaging and encouraging reusable cups",
-      "C": "By selling coffee in bulk only",
-      "D": "By sourcing beans from only one country"
+      "A": "โดยการเสนอส่วนลดสำหรับแก้วที่ใช้ครั้งเดียว",
+      "B": "โดยการใช้บรรจุภัณฑ์ที่เป็นมิตรต่อสิ่งแวดล้อมและสนับสนุนการใช้แก้วที่นำกลับมาใช้ใหม่ได้",
+      "C": "โดยการขายกาแฟในปริมาณมากเท่านั้น",
+      "D": "โดยการจัดหาเมล็ดกาแฟจากประเทศเดียวเท่านั้น"
     },
     "answer": "B"
   },
   {
-    "question": "What is the Coffee Company's approach to business growth?",
+    "question": "แนวทางการเติบโตทางธุรกิจของ Coffee Company คืออะไร?",
     "options": {
-      "A": "Profit is the only goal",
-      "B": "Balancing business growth with social and environmental responsibilities",
-      "C": "Rapid expansion at any cost",
-      "D": "Focusing solely on market share"
+      "A": "ผลกำไรคือเป้าหมายเดียว",
+      "B": "การสร้างสมดุลระหว่างการเติบโตทางธุรกิจกับความรับผิดชอบต่อสังคมและสิ่งแวดล้อม",
+      "C": "การขยายตัวอย่างรวดเร็วโดยไม่คำนึงถึงต้นทุน",
+      "D": "การมุ่งเน้นไปที่ส่วนแบ่งการตลาดเพียงอย่างเดียว"
     },
     "answer": "B"
   },
   {
-    "question": "What was the initial dream behind starting Coffee Company?",
+    "question": "ความฝันเริ่มต้นในการก่อตั้ง Coffee Company คืออะไร?",
     "options": {
-      "A": "To become the largest coffee chain in Thailand",
-      "B": "To contribute to global change and foster social development",
-      "C": "To exclusively serve Italian coffee",
-      "D": "To create the most expensive coffee blend"
+      "A": "เพื่อเป็นเครือข่ายร้านกาแฟที่ใหญ่ที่สุดในประเทศไทย",
+      "B": "เพื่อมีส่วนร่วมในการเปลี่ยนแปลงระดับโลกและส่งเสริมการพัฒนาสังคม",
+      "C": "เพื่อให้บริการกาแฟอิตาเลียนโดยเฉพาะ",
+      "D": "เพื่อสร้างสรรค์เมล็ดกาแฟผสมที่แพงที่สุด"
     },
     "answer": "B"
   },
   {
-    "question": "Who is the co-founder of Coffee Company mentioned in the text?",
+    "question": "ใครคือผู้ร่วมก่อตั้ง Coffee Company ที่กล่าวถึงในเนื้อหา?",
     "options": {
       "A": "Francesco Illy",
-      "B": "Donut Somjai Chaisrihad",
+      "B": "โดนัท สมใจ ชัยศรีหาด",
       "C": "RK Biz Center",
-      "D": "The text does not mention a co-founder"
+      "D": "เนื้อหาไม่ได้กล่าวถึงผู้ร่วมก่อตั้ง"
     },
     "answer": "B"
   },
   {
-    "question": "In what year did Coffee Company start its operations?",
+    "question": "Coffee Company เริ่มดำเนินการในปีใด?",
     "options": {
       "A": "1933",
       "B": "2025",
       "C": "2021",
-      "D": "The text does not specify a start year"
+      "D": "เนื้อหาไม่ได้ระบุปีที่เริ่มดำเนินการ"
     },
     "answer": "C"
   },
   {
-    "question": "What is Coffee Company's commitment regarding its environmental impact?",
+    "question": "พันธสัญญาของ Coffee Company เกี่ยวกับผลกระทบต่อสิ่งแวดล้อมคืออะไร?",
     "options": {
-      "A": "To ignore it as coffee is a natural product",
-      "B": "To reduce it as much as possible",
-      "C": "To offset it by planting trees",
-      "D": "To only focus on social impact"
+      "A": "ที่จะเพิกเฉยต่อผลกระทบเนื่องจากกาแฟเป็นผลิตภัณฑ์จากธรรมชาติ",
+      "B": "ที่จะลดผลกระทบให้มากที่สุดเท่าที่จะทำได้",
+      "C": "ที่จะชดเชยผลกระทบด้วยการปลูกต้นไม้",
+      "D": "ที่จะมุ่งเน้นไปที่ผลกระทบทางสังคมเท่านั้น"
     },
     "answer": "B"
   },
   {
-    "question": "What is the philosophy of Coffee Company regarding its employees?",
+    "question": "ปรัชญาของ Coffee Company เกี่ยวกับพนักงานคืออะไร?",
     "options": {
-      "A": "Employees are easily replaceable",
-      "B": "Employees are the most important asset and can grow to be leaders",
-      "C": "Only senior management is important",
-      "D": "Part-time employees have no career path"
+      "A": "พนักงานสามารถทดแทนได้ง่าย",
+      "B": "พนักงานคือสินทรัพย์ที่สำคัญที่สุดและสามารถเติบโตเป็นผู้นำได้",
+      "C": "เฉพาะผู้บริหารระดับสูงเท่านั้นที่สำคัญ",
+      "D": "พนักงานพาร์ทไทม์ไม่มีเส้นทางอาชีพ"
     },
     "answer": "B"
   },
   {
-    "question": "What brand of coffee, originating from Trieste, Italy, does Coffee Company feature?",
+    "question": "Coffee Company ใช้กาแฟยี่ห้อใดจากเมืองตรีเอสเต ประเทศอิตาลี?",
     "options": {
       "A": "Domiko Blend",
       "B": "La Marzocco",
@@ -110,47 +110,47 @@
     "answer": "C"
   },
   {
-    "question": "Who founded the illy coffee brand?",
+    "question": "ใครคือผู้ก่อตั้งแบรนด์กาแฟ illy?",
     "options": {
-      "A": "Donut Somjai Chaisrihad",
+      "A": "โดนัท สมใจ ชัยศรีหาด",
       "B": "Francesco Illy",
-      "C": "The text does not mention the founder",
-      "D": "An anonymous Italian group"
+      "C": "เนื้อหาไม่ได้กล่าวถึงผู้ก่อตั้ง",
+      "D": "กลุ่มชาวอิตาลีที่ไม่ระบุชื่อ"
     },
     "answer": "B"
   },
   {
-    "question": "What is a notable innovation of the illy brand?",
+    "question": "นวัตกรรมที่โดดเด่นของแบรนด์ illy คืออะไร?",
     "options": {
-      "A": "The Domiko Blend",
-      "B": "Eco-friendly packaging",
-      "C": "The Iperespresso system",
-      "D": "Cheese Toast recipe"
+      "A": "Domiko Blend",
+      "B": "บรรจุภัณฑ์ที่เป็นมิตรต่อสิ่งแวดล้อม",
+      "C": "ระบบ Iperespresso",
+      "D": "สูตรชีสโทสต์"
     },
     "answer": "C"
   },
   {
-    "question": "Where are Coffee Company's primary Arabica beans sourced from?",
+    "question": "เมล็ดกาแฟอาราบิก้าหลักของ Coffee Company มาจากที่ใด?",
     "options": {
-      "A": "Trieste, Italy",
-      "B": "Doi Chang Village, Chiang Rai, Thailand",
-      "C": "Ethiopia",
-      "D": "Columbia"
+      "A": "ตรีเอสเต ประเทศอิตาลี",
+      "B": "หมู่บ้านดอยช้าง จังหวัดเชียงราย ประเทศไทย",
+      "C": "เอธิโอเปีย",
+      "D": "โคลอมเบีย"
     },
     "answer": "B"
   },
   {
-    "question": "What characteristic is highlighted about the soil in Doi Chang?",
+    "question": "ลักษณะเด่นของดินในดอยช้างที่ถูกกล่าวถึงคืออะไร?",
     "options": {
-      "A": "It is volcanic",
-      "B": "It is sandy",
-      "C": "It is mineral-rich",
-      "D": "It is artificially fertilized"
+      "A": "เป็นดินภูเขาไฟ",
+      "B": "เป็นดินทราย",
+      "C": "อุดมสมบูรณ์ไปด้วยแร่ธาตุ",
+      "D": "มีการใส่ปุ๋ยเทียม"
     },
     "answer": "C"
   },
   {
-    "question": "What was the original name of Coffee Company?",
+    "question": "ชื่อเดิมของ Coffee Company คืออะไร?",
     "options": {
       "A": "Illy Cafe",
       "B": "Domiko Coffee",
@@ -160,37 +160,37 @@
     "answer": "C"
   },
   {
-    "question": "What is described as a 'timeless favorite' and the 'best-selling item' at Coffee Company?",
+    "question": "สินค้าใดที่ถูกอธิบายว่าเป็น 'เมนูโปรดตลอดกาล' และ 'สินค้าขายดีที่สุด' ของ Coffee Company?",
     "options": {
       "A": "Illy Espresso",
       "B": "Domiko Blend Latte",
-      "C": "Cheese Toast",
-      "D": "Special Matcha"
+      "C": "ชีสโทสต์",
+      "D": "มัทฉะพิเศษ"
     },
     "answer": "C"
   },
   {
-    "question": "How is the Cheese Toast at Coffee Company prepared?",
+    "question": "ชีสโทสต์ที่ Coffee Company เตรียมอย่างไร?",
     "options": {
-      "A": "Using a fully automated machine",
-      "B": "With a new recipe daily",
-      "C": "Using traditional handmade methods",
-      "D": "It's outsourced from another bakery"
+      "A": "ใช้เครื่องจักรอัตโนมัติเต็มรูปแบบ",
+      "B": "ด้วยสูตรใหม่ทุกวัน",
+      "C": "ใช้วิธีการทำมือแบบดั้งเดิม",
+      "D": "สั่งมาจากร้านเบเกอรี่อื่น"
     },
     "answer": "C"
   },
   {
-    "question": "What type of coffee machines does Coffee Company use for its On-Site Coffee Booth Service?",
+    "question": "Coffee Company ใช้เครื่องชงกาแฟประเภทใดสำหรับบริการ On-Site Coffee Booth?",
     "options": {
-      "A": "Standard home espresso machines",
-      "B": "Iperespresso machines",
-      "C": "La Marzocco machines",
-      "D": "Custom-built machines"
+      "A": "เครื่องเอสเพรสโซ่สำหรับใช้ในบ้านทั่วไป",
+      "B": "เครื่อง Iperespresso",
+      "C": "เครื่อง La Marzocco",
+      "D": "เครื่องที่สร้างขึ้นเอง"
     },
     "answer": "C"
   },
   {
-    "question": "What is the House Blend of Coffee Company called?",
+    "question": "House Blend ของ Coffee Company ชื่อว่าอะไร?",
     "options": {
       "A": "Illy Classic",
       "B": "Domiko Blend",
@@ -200,67 +200,67 @@
     "answer": "B"
   },
   {
-    "question": "Which countries are mentioned as sources for illy's Specialty Coffee selections?",
+    "question": "ประเทศใดบ้างที่กล่าวถึงว่าเป็นแหล่งที่มาของกาแฟ Specialty Coffee ของ illy?",
     "options": {
-      "A": "Brazil, Vietnam, Indonesia",
-      "B": "Italy, France, Spain",
-      "C": "Ethiopia, Columbia, Nicaragua",
-      "D": "Thailand, Laos, Myanmar"
+      "A": "บราซิล, เวียดนาม, อินโดนีเซีย",
+      "B": "อิตาลี, ฝรั่งเศส, สเปน",
+      "C": "เอธิโอเปีย, โคลอมเบีย, นิการากัว",
+      "D": "ไทย, ลาว, พม่า"
     },
     "answer": "C"
   },
   {
-    "question": "What non-coffee specialty beverage does Coffee Company offer, imported from Japan?",
+    "question": "Coffee Company มีเครื่องดื่มพิเศษที่ไม่ใช่กาแฟชนิดใดที่นำเข้าจากญี่ปุ่น?",
     "options": {
-      "A": "Thai Iced Tea",
-      "B": "Special Matcha",
-      "C": "Classic Chocolate",
-      "D": "Fresh Milk"
+      "A": "ชาไทยเย็น",
+      "B": "มัทฉะพิเศษ",
+      "C": "ช็อกโกแลตคลาสสิก",
+      "D": "นมสด"
     },
     "answer": "B"
   },
   {
-    "question": "How is the Special Matcha prepared at Coffee Company's booths?",
+    "question": "มัทฉะพิเศษที่บูธของ Coffee Company เตรียมอย่างไร?",
     "options": {
-      "A": "Using an instant powder mix",
-      "B": "By brewing it like tea",
-      "C": "Using traditional methods, whisking it to create foam",
-      "D": "It's pre-made and bottled"
+      "A": "ใช้ผงสำเร็จรูป",
+      "B": "โดยการชงเหมือนชา",
+      "C": "ใช้วิธีการดั้งเดิม โดยการตีด้วยแปรงจนเกิดฟอง",
+      "D": "เป็นแบบสำเร็จรูปบรรจุขวด"
     },
     "answer": "C"
   },
   {
-    "question": "What is emphasized about the baristas at Coffee Company's events?",
+    "question": "สิ่งที่เน้นย้ำเกี่ยวกับบาริสต้าในงานอีเว้นท์ของ Coffee Company คืออะไร?",
     "options": {
-      "A": "They only focus on making coffee quickly",
-      "B": "They are skilled, well-trained, and passionate about service",
-      "C": "They are temporary staff with minimal training",
-      "D": "They are not allowed to interact with guests"
+      "A": "พวกเขามุ่งเน้นเพียงแค่การทำกาแฟอย่างรวดเร็ว",
+      "B": "พวกเขามีทักษะ ได้รับการฝึกฝนมาอย่างดี และหลงใหลในบริการ",
+      "C": "พวกเขาเป็นพนักงานชั่วคราวที่ได้รับการฝึกอบรมน้อยที่สุด",
+      "D": "พวกเขาไม่ได้รับอนุญาตให้มีปฏิสัมพันธ์กับแขก"
     },
     "answer": "B"
   },
   {
-    "question": "How does the quality of menu items at Coffee Company's On-Site Booth compare to their cafe?",
+    "question": "คุณภาพของรายการเมนูที่บูธ On-Site ของ Coffee Company เทียบกับที่ร้านเป็นอย่างไร?",
     "options": {
-      "A": "It's a simplified, lower-quality version",
-      "B": "It uses different, cheaper ingredients",
-      "C": "It uses the same recipes and ingredients, ensuring consistent quality",
-      "D": "It focuses only on coffee, no other menu items"
+      "A": "เป็นเวอร์ชันที่เรียบง่ายและคุณภาพต่ำกว่า",
+      "B": "ใช้วัตถุดิบที่แตกต่างและราคาถูกกว่า",
+      "C": "ใช้สูตรและวัตถุดิบเดียวกัน ทำให้มั่นใจในคุณภาพที่สม่ำเสมอ",
+      "D": "เน้นเฉพาะกาแฟ ไม่มีรายการเมนูอื่น"
     },
     "answer": "C"
   },
   {
-    "question": "What is the starting price for the 'Package Basic' On-Site Coffee Booth service (100 cups)?",
+    "question": "ราคาเริ่มต้นสำหรับบริการ On-Site Coffee Booth 'Package Basic' (100 แก้ว) คือเท่าไร?",
     "options": {
-      "A": "15,000 Baht",
-      "B": "12,000 Baht",
-      "C": "10,000 Baht",
-      "D": "20,000 Baht"
+      "A": "15,000 บาท",
+      "B": "12,000 บาท",
+      "C": "10,000 บาท",
+      "D": "20,000 บาท"
     },
     "answer": "C"
   },
   {
-    "question": "How many classic coffee menu items are included in the 'Package Basic'?",
+    "question": "มีรายการเมนูกาแฟคลาสสิกกี่รายการที่รวมอยู่ใน 'Package Basic'?",
     "options": {
       "A": "3",
       "B": "5",
@@ -270,37 +270,37 @@
     "answer": "B"
   },
   {
-    "question": "What is the cost for every additional 50 cups in the 'Package Basic (illy)'?",
+    "question": "ค่าใช้จ่ายสำหรับทุกๆ 50 แก้วเพิ่มเติมใน 'Package Basic (illy)' คือเท่าไร?",
     "options": {
-      "A": "3,000 Baht",
-      "B": "5,000 Baht",
-      "C": "6,000 Baht",
-      "D": "1,500 Baht"
+      "A": "3,000 บาท",
+      "B": "5,000 บาท",
+      "C": "6,000 บาท",
+      "D": "1,500 บาท"
     },
     "answer": "B"
   },
   {
-    "question": "The 'Package Silver' includes classic coffee menus and how many other non-coffee menu items?",
+    "question": "'Package Silver' รวมถึงเมนูกาแฟคลาสสิกและรายการเมนูที่ไม่ใช่กาแฟอีกกี่รายการ?",
     "options": {
       "A": "2",
       "B": "4",
       "C": "6",
-      "D": "0 (only coffee)"
+      "D": "0 (เฉพาะกาแฟ)"
     },
     "answer": "B"
   },
   {
-    "question": "What is the starting price for the 'Package Gold' On-Site Coffee Booth service (100 cups)?",
+    "question": "ราคาเริ่มต้นสำหรับบริการ On-Site Coffee Booth 'Package Gold' (100 แก้ว) คือเท่าไร?",
     "options": {
-      "A": "10,000 Baht",
-      "B": "12,000 Baht",
-      "C": "15,000 Baht",
-      "D": "20,000 Baht"
+      "A": "10,000 บาท",
+      "B": "12,000 บาท",
+      "C": "15,000 บาท",
+      "D": "20,000 บาท"
     },
     "answer": "C"
   },
   {
-    "question": "How many total menu items are included in the 'Package Gold (illy)'?",
+    "question": "มีรายการเมนูทั้งหมดกี่รายการที่รวมอยู่ใน 'Package Gold (illy)'?",
     "options": {
       "A": "9",
       "B": "14",
@@ -310,7 +310,7 @@
     "answer": "B"
   },
   {
-    "question": "Which package includes 'Iced / Hot Drip Coffee'?",
+    "question": "แพ็กเกจใดที่มี 'กาแฟดริปร้อน / เย็น'?",
     "options": {
       "A": "Package Basic",
       "B": "Package Silver",
@@ -320,127 +320,127 @@
     "answer": "D"
   },
   {
-    "question": "What is the starting price for the 'Package Signature (illy)' for 100 cups?",
+    "question": "ราคาเริ่มต้นสำหรับ 'Package Signature (illy)' สำหรับ 100 แก้วคือเท่าไร?",
     "options": {
-      "A": "15,000 Baht",
-      "B": "20,000 Baht",
-      "C": "25,000 Baht",
-      "D": "17,000 Baht"
+      "A": "15,000 บาท",
+      "B": "20,000 บาท",
+      "C": "25,000 บาท",
+      "D": "17,000 บาท"
     },
     "answer": "C"
   },
   {
-    "question": "What is the cost for every additional 50 cups in the 'Package Signature'?",
+    "question": "ค่าใช้จ่ายสำหรับทุกๆ 50 แก้วเพิ่มเติมใน 'Package Signature' คือเท่าไร?",
     "options": {
-      "A": "3,000 Baht",
-      "B": "5,000 Baht",
-      "C": "6,000 Baht",
-      "D": "1,500 Baht"
+      "A": "3,000 บาท",
+      "B": "5,000 บาท",
+      "C": "6,000 บาท",
+      "D": "1,500 บาท"
     },
     "answer": "C"
   },
   {
-    "question": "What is the primary service area for the On-Site Coffee Booth?",
+    "question": "พื้นที่ให้บริการหลักสำหรับ On-Site Coffee Booth คือที่ใด?",
     "options": {
-      "A": "All of Thailand",
-      "B": "Bangkok",
-      "C": "Chiang Rai only",
-      "D": "Globally"
+      "A": "ทั่วประเทศไทย",
+      "B": "กรุงเทพมหานคร",
+      "C": "เฉพาะเชียงราย",
+      "D": "ทั่วโลก"
     },
     "answer": "B"
   },
   {
-    "question": "What is included in the On-Site Coffee Booth service fee, besides coffee?",
+    "question": "นอกเหนือจากกาแฟแล้ว ค่าบริการ On-Site Coffee Booth รวมถึงอะไรบ้าง?",
     "options": {
-      "A": "Only coffee and cups",
-      "B": "Coffee machine, equipment, table, packaging, ingredients, staff, setup/teardown",
-      "C": "Venue rental",
-      "D": "Marketing for the event"
+      "A": "เฉพาะกาแฟและแก้ว",
+      "B": "เครื่องชงกาแฟ, อุปกรณ์, โต๊ะ, บรรจุภัณฑ์, วัตถุดิบ, พนักงาน, การติดตั้ง/รื้อถอน",
+      "C": "ค่าเช่าสถานที่",
+      "D": "การตลาดสำหรับงานอีเว้นท์"
     },
     "answer": "B"
   },
   {
-    "question": "What is the minimum number of cups for the On-Site Coffee Booth service?",
+    "question": "จำนวนแก้วขั้นต่ำสำหรับบริการ On-Site Coffee Booth คือเท่าไร?",
     "options": {
-      "A": "50 cups",
-      "B": "100 cups",
-      "C": "150 cups",
-      "D": "No minimum"
+      "A": "50 แก้ว",
+      "B": "100 แก้ว",
+      "C": "150 แก้ว",
+      "D": "ไม่มีขั้นต่ำ"
     },
     "answer": "B"
   },
   {
-    "question": "What is the maximum service duration for the On-Site Coffee Booth, unless overtime is paid?",
+    "question": "ระยะเวลาให้บริการสูงสุดสำหรับ On-Site Coffee Booth คือเท่าไร หากไม่จ่ายค่าล่วงเวลา?",
     "options": {
-      "A": "1 hour",
-      "B": "2 hours",
-      "C": "3 hours or until cups run out",
-      "D": "Unlimited time"
+      "A": "1 ชั่วโมง",
+      "B": "2 ชั่วโมง",
+      "C": "3 ชั่วโมง หรือจนกว่าแก้วจะหมด",
+      "D": "ไม่จำกัดเวลา"
     },
     "answer": "C"
   },
   {
-    "question": "What is the overtime charge per hour for the On-Site Coffee Booth service?",
+    "question": "ค่าบริการล่วงเวลาต่อชั่วโมงสำหรับบริการ On-Site Coffee Booth คือเท่าไร?",
     "options": {
-      "A": "500 Baht",
-      "B": "1,000 Baht",
-      "C": "1,500 Baht",
-      "D": "2,000 Baht"
+      "A": "500 บาท",
+      "B": "1,000 บาท",
+      "C": "1,500 บาท",
+      "D": "2,000 บาท"
     },
     "answer": "C"
   },
   {
-    "question": "What happens if the event ends or time is up, but not all ordered cups have been used?",
+    "question": "จะเกิดอะไรขึ้นหากงานสิ้นสุดหรือหมดเวลา แต่ยังใช้แก้วที่สั่งไว้ไม่หมด?",
     "options": {
-      "A": "The remaining coffee is given to the event host",
-      "B": "A refund is issued for unused cups",
-      "C": "Coffee Company reserves the right to take back all ingredients and packaging",
-      "D": "The booth stays until all cups are served, regardless of time"
+      "A": "กาแฟที่เหลือจะมอบให้กับผู้จัดงาน",
+      "B": "จะมีการคืนเงินสำหรับแก้วที่ไม่ได้ใช้",
+      "C": "Coffee Company ขอสงวนสิทธิ์ในการนำวัตถุดิบและบรรจุภัณฑ์ทั้งหมดกลับคืน",
+      "D": "บูธจะอยู่จนกว่าแก้วทั้งหมดจะถูกเสิร์ฟ โดยไม่คำนึงถึงเวลา"
     },
     "answer": "C"
   },
   {
-    "question": "Where is the Coffee Company branch mentioned in the text located?",
+    "question": "สาขาของ Coffee Company ที่กล่าวถึงในเนื้อหาตั้งอยู่ที่ใด?",
     "options": {
-      "A": "Doi Chang, Chiang Rai",
-      "B": "Trieste, Italy",
-      "C": "RK Biz Center, Lat Krabang, Bangkok",
-      "D": "The text does not specify a branch location"
+      "A": "ดอยช้าง จังหวัดเชียงราย",
+      "B": "ตรีเอสเต ประเทศอิตาลี",
+      "C": "RK Biz Center ลาดกระบัง กรุงเทพมหานคร",
+      "D": "เนื้อหาไม่ได้ระบุที่ตั้งสาขา"
     },
     "answer": "C"
   },
   {
-    "question": "What is the phone number provided for Coffee Company?",
+    "question": "เบอร์โทรศัพท์ที่ให้ไว้สำหรับ Coffee Company คืออะไร?",
     "options": {
-      "A": "The text does not provide a phone number",
+      "A": "เนื้อหาไม่ได้ให้เบอร์โทรศัพท์",
       "B": "02-474-0153",
       "C": "1900-COFFEE",
-      "D": "It varies by branch"
+      "D": "แตกต่างกันไปตามสาขา"
     },
     "answer": "B"
   },
   {
-    "question": "What is the email address provided for Coffee Company?",
+    "question": "ที่อยู่อีเมลที่ให้ไว้สำหรับ Coffee Company คืออะไร?",
     "options": {
       "A": "info@coffeecompany.asia",
       "B": "careers@coffeecompany.asia",
       "C": "sales@coffeecompany.asia",
-      "D": "The text does not provide a general email, only for careers"
+      "D": "เนื้อหาไม่ได้ให้อีเมลทั่วไป ให้เฉพาะสำหรับตำแหน่งงาน"
     },
     "answer": "A"
   },
   {
-    "question": "What unconventional payment method does Coffee Company accept, according to the footer?",
+    "question": "ตามส่วนท้ายของข้อความ Coffee Company รับชำระเงินด้วยวิธีการที่ไม่เป็นทางการใดบ้าง?",
     "options": {
-      "A": "Gold Bullion",
-      "B": "Barter System",
-      "C": "Bitcoin (via Bitcoin Lightning Network)",
-      "D": "Foreign Currencies Only"
+      "A": "ทองคำแท่ง",
+      "B": "ระบบแลกเปลี่ยนสินค้า",
+      "C": "Bitcoin (ผ่าน Bitcoin Lightning Network)",
+      "D": "เฉพาะสกุลเงินต่างประเทศ"
     },
     "answer": "C"
   },
   {
-    "question": "What year is mentioned in the copyright notice for Coffee Company (Thailand)?",
+    "question": "ปีใดที่กล่าวถึงในประกาศลิขสิทธิ์สำหรับ Coffee Company (Thailand)?",
     "options": {
       "A": "2021",
       "B": "2023",
@@ -450,52 +450,52 @@
     "answer": "D"
   },
   {
-    "question": "Which of these is NOT listed as a classic coffee menu item in the 'Package Basic'?",
+    "question": "ข้อใดต่อไปนี้ไม่อยู่ในรายการเมนูกาแฟคลาสสิกใน 'Package Basic'?",
     "options": {
-      "A": "Hot Espresso",
-      "B": "Iced Caffe Latte",
-      "C": "Iced Orange Coffee",
-      "D": "Hot Caffe Mocha"
+      "A": "เอสเพรสโซ่ร้อน",
+      "B": "คาเฟ่ลาเต้เย็น",
+      "C": "กาแฟส้มเย็น",
+      "D": "คาเฟ่มอคค่าร้อน"
     },
     "answer": "C"
   },
   {
-    "question": "Which illy Specialty Coffee origin is NOT listed?",
+    "question": "แหล่งกำเนิดกาแฟ illy Specialty Coffee ใดที่ไม่ได้ระบุไว้?",
     "options": {
-      "A": "Ethiopia",
-      "B": "Columbia",
-      "C": "Brazil",
-      "D": "Nicaragua"
+      "A": "เอธิโอเปีย",
+      "B": "โคลอมเบีย",
+      "C": "บราซิล",
+      "D": "นิการากัว"
     },
     "answer": "C"
   },
   {
-    "question": "What is the quality of matcha used by Coffee Company described as?",
+    "question": "คุณภาพของมัทฉะที่ Coffee Company ใช้ถูกอธิบายว่าเป็นอย่างไร?",
     "options": {
-      "A": "Standard food grade",
-      "B": "Nearly ceremonial grade",
-      "C": "Culinary grade",
-      "D": "Sweetened matcha mix"
+      "A": "เกรดอาหารมาตรฐาน",
+      "B": "เกือบจะเป็นเกรดพิธีชงชา",
+      "C": "เกรดสำหรับทำอาหาร",
+      "D": "มัทฉะผสมรสหวาน"
     },
     "answer": "B"
   },
   {
-    "question": "What does Coffee Company aim to provide regarding its coffee, according to 'The Dream' section?",
+    "question": "ตามส่วน 'ความฝัน' Coffee Company ตั้งเป้าที่จะให้บริการกาแฟในลักษณะใด?",
     "options": {
-      "A": "The cheapest coffee available",
-      "B": "Only exotic and rare coffee beans",
-      "C": "Premium coffee from sustainable farms at accessible prices",
-      "D": "Coffee exclusively for businesses"
+      "A": "กาแฟที่ถูกที่สุดที่มีอยู่",
+      "B": "เฉพาะเมล็ดกาแฟที่แปลกใหม่และหายาก",
+      "C": "กาแฟพรีเมียมจากฟาร์มที่ยั่งยืนในราคาที่เข้าถึงได้",
+      "D": "กาแฟสำหรับธุรกิจโดยเฉพาะ"
     },
     "answer": "C"
   },
   {
-    "question": "What is the career path philosophy at Coffee Company?",
+    "question": "ปรัชญาเส้นทางอาชีพที่ Coffee Company คืออะไร?",
     "options": {
-      "A": "Limited growth opportunities",
-      "B": "Career paths are only for full-time staff",
-      "C": "All positions can grow to leadership, with clear career paths",
-      "D": "Promotion is based solely on seniority"
+      "A": "โอกาสเติบโตมีจำกัด",
+      "B": "เส้นทางอาชีพมีเฉพาะสำหรับพนักงานประจำเท่านั้น",
+      "C": "ทุกตำแหน่งสามารถเติบโตสู่ความเป็นผู้นำได้ โดยมีเส้นทางอาชีพที่ชัดเจน",
+      "D": "การเลื่อนตำแหน่งขึ้นอยู่กับความอาวุโสเท่านั้น"
     },
     "answer": "C"
   }

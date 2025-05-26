@@ -1,41 +1,76 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
-/* General Body Styling */
+/* --- Variables (Optional, but good for consistency) --- */
+:root {
+    --primary-color: #007bff; /* Vibrant Blue */
+    --secondary-color: #6c757d; /* Medium Grey */
+    --success-color: #28a745; /* Green */
+    --danger-color: #dc3545; /* Red */
+    --light-bg-color: #f8f9fa; /* Very Light Grey/Off-white */
+    --body-bg-color: #e9ebee; /* Light Grey for body */
+    --text-dark-color: #212529; /* Dark Grey / Almost Black */
+    --text-light-color: #495057; /* Lighter Grey for text */
+    --border-color: #dee2e6; /* Light border color */
+    --white-color: #ffffff;
+    --font-family-main: 'Poppins', sans-serif;
+    --border-radius-sm: 0.25rem; /* 4px */
+    --border-radius-md: 0.5rem; /* 8px */
+    --border-radius-lg: 25px; /* Pill shape */
+    --box-shadow-sm: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    --box-shadow-md: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+/* --- General Body Styling --- */
 body {
-    font-family: 'Nunito', Arial, sans-serif;
-    line-height: 1.7;
+    font-family: var(--font-family-main);
+    line-height: 1.6;
     margin: 0;
     padding: 20px;
-    background-color: #F5EFE6; /* Light Beige/Cream */
-    color: #3A2F2F; /* Dark Brown/Dark Gray for text */
+    background-color: var(--body-bg-color);
+    color: var(--text-dark-color);
     display: flex;
     flex-direction: column;
     align-items: center;
+    min-height: 100vh;
 }
 
 header {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 2rem;
 }
 
 header h1 {
-    color: #6F4E37; /* Coffee Brown */
-    font-size: 2.5em;
-    font-weight: 700;
+    color: var(--primary-color);
+    font-size: 2.2rem; /* Adjusted for Poppins */
+    font-weight: 600;
 }
 
 main {
     width: 100%;
-    max-width: 750px; /* Max width for main content */
+    display: flex;
+    justify-content: center;
 }
 
-/* Section Styling */
+.game-wrapper {
+    background-color: var(--white-color);
+    width: 100%;
+    max-width: 600px; /* Modern app-like width */
+    padding: 2rem;
+    border-radius: var(--border-radius-md);
+    box-shadow: var(--box-shadow-md);
+    margin-bottom: 2rem;
+}
+
+/* --- Section Styling --- */
 section {
-    background-color: #FFFFFF; /* White */
-    margin-bottom: 25px;
-    padding: 25px 30px;
-    border-radius: 12px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    background-color: transparent; /* Sections are part of the game-wrapper card */
+    margin-bottom: 2rem;
+    padding: 0; /* Padding handled by game-wrapper or elements */
+    border-radius: 0; /* No individual radius for sections */
+    box-shadow: none; /* No individual shadow for sections */
+}
+section:last-child {
+    margin-bottom: 0;
 }
 
 #gameSetupArea h2,
@@ -43,157 +78,191 @@ section {
 #endGameArea h2,
 #scoreboardArea h2 {
     text-align: center;
-    color: #6F4E37; /* Coffee Brown */
+    color: var(--text-dark-color);
     margin-top: 0;
-    margin-bottom: 25px;
-    font-size: 1.8em;
+    margin-bottom: 1.5rem;
+    font-size: 1.6rem; /* Adjusted for Poppins */
+    font-weight: 500;
 }
 
-/* Initially hidden sections */
-#quizArea,
-#endGameArea {
-    /* display: none; is already set inline in HTML, but can be reinforced here */
-}
-
-/* Text Element Styling */
+/* --- Text Element Styling --- */
 #quizHeader {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 20px;
-    padding-bottom: 15px;
-    border-bottom: 2px solid #EFEBE9; /* Lighter shade for border */
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--border-color);
 }
 
 #questionNumber, #scoreDisplay {
-    font-size: 1em;
-    color: #5D4037; /* Darker text accent */
-    font-weight: 600;
+    font-size: 0.9rem;
+    color: var(--text-light-color);
+    font-weight: 500;
+    background-color: var(--light-bg-color);
+    padding: 0.3rem 0.6rem;
+    border-radius: var(--border-radius-sm);
 }
 
 #questionText p {
-    font-size: 1.5em; /* Larger question text */
-    font-weight: 600;
-    color: #3A2F2F;
-    margin-bottom: 25px;
+    font-size: 1.2rem; /* Adjusted for Poppins */
+    font-weight: 500;
+    color: var(--text-dark-color);
+    margin-bottom: 1.5rem;
     text-align: center;
-    min-height: 60px; /* Ensure space even for short questions */
+    min-height: 50px; 
 }
 
 #feedbackText {
-    margin-top: 20px;
-    font-weight: 700; /* Bolder feedback */
+    margin-top: 1rem;
+    font-weight: 600;
     text-align: center;
-    font-size: 1.1em;
-    min-height: 25px; /* Reserve space for feedback */
+    font-size: 1rem;
+    min-height: 24px; 
+    padding: 0.5rem;
+    border-radius: var(--border-radius-sm);
 }
+/* Feedback text color is set by JS */
+#feedbackText.correct {
+    background-color: #e9f7ef; /* Light green background */
+}
+#feedbackText.incorrect {
+    background-color: #fce8e6; /* Light red background */
+}
+
 
 #finalScoreText {
-    font-size: 1.3em;
+    font-size: 1.2rem; /* Adjusted for Poppins */
     text-align: center;
-    margin-bottom: 25px;
-    color: #3A2F2F;
+    margin-bottom: 1.5rem;
+    color: var(--text-dark-color);
+    font-weight: 500;
 }
 
-/* Button Styling */
+/* --- Button Styling --- */
 button {
-    display: block;
-    width: auto; 
-    padding: 12px 25px; /* More padding */
-    margin: 15px auto; 
-    background-color: #6F4E37; /* Coffee Brown */
-    color: white;
+    display: inline-block; /* Changed for centering with text-align on parent if needed */
+    padding: 0.75rem 1.5rem; /* 12px 24px */
+    background-color: var(--primary-color);
+    color: var(--white-color);
     border: none;
-    border-radius: 8px; /* More rounded corners */
+    border-radius: var(--border-radius-lg); /* Pill shape */
     cursor: pointer;
-    font-size: 1.1em; /* Slightly larger font */
-    font-weight: 600;
-    transition: background-color 0.2s ease, transform 0.1s ease;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+    font-size: 1rem; /* Adjusted for Poppins */
+    font-weight: 500;
+    text-align: center;
+    transition: background-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, transform 0.1s ease;
+    box-shadow: var(--box-shadow-sm);
+    margin: 0.5rem; /* General margin for buttons */
 }
+/* Center buttons if they are block/inline-block inside a text-align:center parent */
+#gameSetupArea, #endGameArea {
+    text-align: center;
+}
+
 
 button:hover {
-    background-color: #A0522D; /* Sienna - accent for hover */
-    transform: translateY(-2px); /* Slight lift on hover */
+    background-color: #0069d9; /* Darker blue */
+    box-shadow: var(--box-shadow-md);
+    transform: translateY(-2px);
 }
 
 button:active {
+    background-color: #005cbf; /* Even darker blue */
     transform: translateY(0px);
 }
 
-/* Specifically for answer buttons */
+/* Answer buttons */
 #answerButtons {
     display: flex;
     flex-direction: column;
-    gap: 12px; /* Increased space between answer buttons */
+    gap: 0.75rem; /* 12px */
+    margin-bottom: 1rem;
 }
 
 #answerButtons button {
     width: 100%; 
-    margin: 0; /* Remove individual margins, rely on gap */
-    background-color: #8D6E63; /* Lighter Brown for answer choices */
+    margin: 0; 
+    background-color: var(--white-color);
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
     text-align: left;
-    padding: 15px 20px; /* More padding for easier clicking */
-    font-size: 1em;
+    padding: 0.75rem 1.25rem; /* 12px 20px */
+    font-weight: 500;
+    border-radius: var(--border-radius-md); /* Less rounded than main action buttons */
 }
 
 #answerButtons button:hover {
-    background-color: #A1887F; /* Lighter hover for answers */
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border-color: var(--primary-color); /* Ensure border stays or becomes primary */
 }
 
-/* Input Field Styling */
+/* --- Input Field Styling --- */
 #playerNameInput {
     display: block;
-    width: calc(100% - 24px); 
-    padding: 12px;
-    margin: 10px auto 25px; 
-    border: 1px solid #D7CCC8; /* Softer border color */
-    border-radius: 8px;
-    font-size: 1em;
-    font-family: 'Nunito', sans-serif;
-    color: #3A2F2F;
+    width: calc(100% - 1.5rem - 2px); /* padding L+R, border L+R */
+    padding: 0.75rem; /* 12px */
+    margin: 0.5rem auto 1.5rem; 
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-md);
+    font-size: 1rem; /* Adjusted for Poppins */
+    font-family: var(--font-family-main);
+    color: var(--text-dark-color);
+    background-color: var(--white-color);
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+#playerNameInput:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    outline: none;
 }
 
 label[for="playerNameInput"] {
     display: block;
-    margin-bottom: 8px;
-    text-align: center;
-    font-weight: 600;
-    font-size: 1.1em;
-    color: #5D4037;
+    margin-bottom: 0.5rem;
+    text-align: left; /* Modern forms often left-align labels */
+    font-weight: 500;
+    font-size: 0.9rem; /* Adjusted for Poppins */
+    color: var(--text-light-color);
 }
 
-/* Scoreboard Styling */
+/* --- Scoreboard Styling --- */
 #scoreboardList {
     list-style-type: none;
     padding: 0;
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-md);
+    overflow: hidden; /* To make border-radius clip li backgrounds */
 }
 
 #scoreboardList li {
-    padding: 12px 10px; /* More padding */
-    border-bottom: 1px solid #EFEBE9;
-    text-align: left; /* Align text to left for better readability */
-    font-size: 1.05em;
-    font-weight: 600;
-    color: #3A2F2F;
+    padding: 0.75rem 1rem; /* 12px 16px */
+    border-bottom: 1px solid var(--border-color);
+    text-align: left; 
+    font-size: 0.95rem; /* Adjusted for Poppins */
+    font-weight: 500;
+    color: var(--text-dark-color);
+    background-color: var(--white-color);
 }
 
 #scoreboardList li:nth-child(odd) {
-    background-color: #FAF7F5; /* Very subtle striping for readability */
+    background-color: var(--light-bg-color); 
 }
 
 #scoreboardList li:last-child {
     border-bottom: none;
 }
 
-/* Footer Styling */
+/* --- Footer Styling --- */
 footer {
     text-align: center;
-    margin-top: 40px;
-    padding-top: 20px;
-    border-top: 1px solid #D7CCC8; /* Softer border */
-    font-size: 0.95em;
-    color: #5D4037; /* Darker text accent */
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border-color);
+    font-size: 0.85rem; /* Adjusted for Poppins */
+    color: var(--text-light-color);
     width: 100%;
-    max-width: 750px;
+    max-width: 600px; /* Match game-wrapper width */
 }
