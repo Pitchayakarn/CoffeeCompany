@@ -15,16 +15,68 @@ document.addEventListener('DOMContentLoaded', () => {
     const finalScoreTextDisplay = document.getElementById('finalScoreText');
     const playAgainButton = document.getElementById('playAgainButton');
 
-    const scoreboardArea = document.getElementById('scoreboardArea'); // Used if needed, list is main
+    const scoreboardArea = document.getElementById('scoreboardArea'); 
     const scoreboardListDisplay = document.getElementById('scoreboardList');
 
-    // Global Variables
+    // --- Audio Setup ---
+    // NOTE: User needs to provide these audio files in the 'audio/' directory
+    const backgroundMusicPath = 'audio/background.mp3'; 
+    const clickSoundPath = 'audio/click.mp3';         
+    const correctAnswerPath = 'audio/correct.mp3';    
+    const incorrectAnswerPath = 'audio/wrong.mp3';    
+    const gameStartSoundPath = 'audio/gamestart.mp3'; // Sound for game start/play again
+    const gameEndSoundPath = 'audio/gameover.mp3';   // Sound for game over
+
+    const backgroundMusic = new Audio();
+    backgroundMusic.loop = true;
+
+    const clickSound = new Audio();
+    const correctAnswerSound = new Audio();
+    const incorrectAnswerSound = new Audio();
+    const gameStartSound = new Audio();
+    const gameEndSound = new Audio();
+
+    /**
+     * Plays background music.
+     * @param {string} filePath - Path to the background music file.
+     */
+    function playBackgroundMusic(filePath) {
+        if (!filePath) return; 
+        backgroundMusic.src = filePath;
+        backgroundMusic.play().catch(error => {
+            console.warn("Background music playback failed (user interaction might be required):", error);
+        });
+    }
+
+    /**
+     * Stops the background music.
+     */
+    function stopBackgroundMusic() {
+        backgroundMusic.pause();
+        backgroundMusic.currentTime = 0; 
+    }
+
+    /**
+     * Plays a sound effect.
+     * @param {HTMLAudioElement} soundObject - The Audio object to play.
+     * @param {string} filePath - Path to the sound effect file.
+     */
+    function playEffectSound(soundObject, filePath) {
+        if (!soundObject || !filePath) return; 
+        soundObject.src = filePath;
+        soundObject.play().catch(error => {
+            console.warn(`Sound effect (${filePath}) playback failed:`, error);
+        });
+    }
+    // --- End Audio Setup ---
+
+    // Global Variables (Game Logic)
     let allQuestions = [];
     let currentQuestions = [];
     let currentQuestionIndex = 0;
     let score = 0;
-    let playerName = "Player";
-    let scoreboard = []; // Format: [{ name: "Player1", score: 15, totalQuestions: 20 }]
+    let playerName = "ผู้เล่น"; 
+    let scoreboard = []; 
 
     const NUM_QUESTIONS_PER_ROUND = 20;
 
@@ -38,13 +90,13 @@ document.addEventListener('DOMContentLoaded', () => {
             allQuestions = await response.json();
             if (!Array.isArray(allQuestions) || allQuestions.length === 0) {
                 console.error("No questions loaded or questions.json is not an array.");
-                questionTextDisplay.textContent = "Failed to load questions. Please try refreshing.";
+                questionTextDisplay.textContent = "ไม่สามารถโหลดคำถามได้ โปรดลองรีเฟรช";
                 startGameButton.disabled = true;
                 return;
             }
         } catch (error) {
             console.error("Failed to fetch questions:", error);
-            questionTextDisplay.textContent = "Failed to load questions. Please check the console for errors and ensure questions.json is present.";
+            questionTextDisplay.textContent = "ไม่สามารถโหลดคำถามได้ โปรดตรวจสอบคอนโซลและไฟล์ questions.json";
             startGameButton.disabled = true;
             return;
         }
@@ -53,7 +105,7 @@ document.addEventListener('DOMContentLoaded', () => {
         displayScoreboard();
 
         startGameButton.addEventListener('click', startGame);
-        playAgainButton.addEventListener('click', startGame); // Play again restarts the game
+        playAgainButton.addEventListener('click', startGame); 
     }
 
     function loadScoreboard() {
@@ -70,11 +122,14 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function startGame() {
+        playEffectSound(gameStartSound, gameStartSoundPath); // Play game start sound
+        playBackgroundMusic(backgroundMusicPath);          // Start background music
+
         playerName = playerNameInput.value.trim();
         if (!playerName) {
-            playerName = "Anonymous Player";
+            playerName = "ผู้เล่นนิรนาม"; 
         }
-        playerNameInput.value = playerName; // Update input field in case it was empty
+        playerNameInput.value = playerName; 
 
         gameSetupArea.style.display = 'none';
         endGameArea.style.display = 'none';
@@ -82,15 +137,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
         score = 0;
         currentQuestionIndex = 0;
-        scoreDisplay.textContent = `Score: ${score}`;
+        scoreDisplay.textContent = `คะแนน: ${score}`; 
         feedbackTextDisplay.textContent = "";
 
         currentQuestions = selectRoundQuestions();
         if (currentQuestions.length === 0) {
             console.error("No questions available for the round.");
-            feedbackTextDisplay.textContent = "Not enough questions to start. Please check the question source.";
+            feedbackTextDisplay.textContent = "มีคำถามไม่เพียงพอที่จะเริ่มเกม โปรดตรวจสอบแหล่งที่มาของคำถาม";
             quizArea.style.display = 'none';
-            gameSetupArea.style.display = 'block'; // Go back to setup
+            gameSetupArea.style.display = 'block'; 
+            stopBackgroundMusic(); // Stop music if game cannot start
             return;
         }
         displayQuestion();
@@ -110,38 +166,41 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         const questionData = currentQuestions[currentQuestionIndex];
-        questionNumberDisplay.textContent = `Question ${currentQuestionIndex + 1} of ${currentQuestions.length}`;
-        questionTextDisplay.textContent = questionData.question;
+        questionNumberDisplay.textContent = `คำถามที่ ${currentQuestionIndex + 1} จาก ${currentQuestions.length}`; 
+        questionTextDisplay.textContent = questionData.question; 
 
-        answerButtonsContainer.innerHTML = ''; // Clear previous buttons
+        answerButtonsContainer.innerHTML = ''; 
         feedbackTextDisplay.textContent = "";
 
         for (const optionKey in questionData.options) {
             const button = document.createElement('button');
             button.textContent = `${optionKey}: ${questionData.options[optionKey]}`;
-            button.classList.add('answer-button'); // For styling if needed
-            button.addEventListener('click', () => handleAnswer(optionKey, button));
+            button.classList.add('answer-button'); 
+            button.addEventListener('click', () => {
+                playEffectSound(clickSound, clickSoundPath); // Play click sound on answer attempt
+                handleAnswer(optionKey, button);
+            });
             answerButtonsContainer.appendChild(button);
         }
     }
 
     function handleAnswer(selectedOptionKey) {
-        // Disable all answer buttons
         const buttons = answerButtonsContainer.querySelectorAll('button');
         buttons.forEach(button => button.disabled = true);
 
         const correctAnswerKey = currentQuestions[currentQuestionIndex].answer;
-        const selectedOptionText = currentQuestions[currentQuestionIndex].options[selectedOptionKey];
-        const correctAnswerText = currentQuestions[currentQuestionIndex].options[correctAnswerKey];
+        const correctAnswerText = currentQuestions[currentQuestionIndex].options[correctAnswerKey]; 
 
         if (selectedOptionKey === correctAnswerKey) {
             score++;
-            scoreDisplay.textContent = `Score: ${score}`;
-            feedbackTextDisplay.textContent = "Correct!";
+            scoreDisplay.textContent = `คะแนน: ${score}`; 
+            feedbackTextDisplay.textContent = "ถูกต้อง!"; 
             feedbackTextDisplay.style.color = "green";
+            playEffectSound(correctAnswerSound, correctAnswerPath); // Play correct answer sound
         } else {
-            feedbackTextDisplay.textContent = `Incorrect. Correct answer was ${correctAnswerKey}: ${correctAnswerText}`;
+            feedbackTextDisplay.textContent = `ผิดครับ/ค่ะ คำตอบที่ถูกต้องคือ ${correctAnswerKey}: ${correctAnswerText}`; 
             feedbackTextDisplay.style.color = "red";
+            playEffectSound(incorrectAnswerSound, incorrectAnswerPath); // Play incorrect answer sound
         }
 
         currentQuestionIndex++;
@@ -152,19 +211,20 @@ document.addEventListener('DOMContentLoaded', () => {
             } else {
                 endGame();
             }
-        }, 1500); // Delay before next question or ending game
+        }, 1500); 
     }
 
     function endGame() {
+        stopBackgroundMusic(); // Stop background music
+        playEffectSound(gameEndSound, gameEndSoundPath); // Play game end sound
+
         quizArea.style.display = 'none';
         endGameArea.style.display = 'block';
         
         const totalQuestionsInRound = currentQuestions.length;
-        finalScoreTextDisplay.textContent = `${playerName}, your final score is: ${score} out of ${totalQuestionsInRound}.`;
+        finalScoreTextDisplay.textContent = `${playerName}, คะแนนสุดท้ายของคุณคือ: ${score} จาก ${totalQuestionsInRound}`; 
 
-        // Add to scoreboard
         scoreboard.push({ name: playerName, score: score, totalQuestions: totalQuestionsInRound });
-        // Sort scoreboard by score (descending), then by name (ascending for ties)
         scoreboard.sort((a, b) => {
             if (b.score === a.score) {
                 return a.name.localeCompare(b.name);
@@ -177,11 +237,11 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function displayScoreboard() {
-        scoreboardListDisplay.innerHTML = ''; // Clear existing entries
+        scoreboardListDisplay.innerHTML = ''; 
 
         if (scoreboard.length === 0) {
             const li = document.createElement('li');
-            li.textContent = "Scoreboard is empty.";
+            li.textContent = "ตารางคะแนนว่างเปล่า"; 
             scoreboardListDisplay.appendChild(li);
             return;
         }
@@ -193,6 +253,5 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Start the initialization process
     init();
 });

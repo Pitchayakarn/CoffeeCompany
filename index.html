@@ -1,34 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="th">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coffee Company Quiz Game</title>
+    <title>เกมตอบคำถาม Coffee Company</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
-        <h1>Coffee Company Quiz Game</h1>
+        <h1>เกมตอบคำถาม Coffee Company</h1>
     </header>
 
     <main>
         <section id="gameSetupArea">
-            <h2>Game Setup</h2>
+            <h2>ตั้งค่าเกม</h2>
             <div>
-                <label for="playerNameInput">Enter your name:</label>
-                <input type="text" id="playerNameInput" placeholder="Your Name">
+                <label for="playerNameInput">ใส่ชื่อของคุณ:</label>
+                <input type="text" id="playerNameInput" placeholder="ชื่อของคุณ">
             </div>
-            <button id="startGameButton">Start Game</button>
+            <button id="startGameButton">เริ่มเกม</button>
         </section>
 
         <section id="quizArea" style="display: none;">
             <div id="quizHeader">
-                <p id="questionNumber">Question X of Y</p>
-                <p id="scoreDisplay">Score: 0</p>
+                <p id="questionNumber">คำถามที่ X จาก Y</p>
+                <p id="scoreDisplay">คะแนน: 0</p>
             </div>
             <div id="questionText">
-                <p>This is where the question text will appear.</p>
+                <p>เนื้อหาคำถามจะปรากฏที่นี่</p>
             </div>
             <div id="answerButtons" class="answer-buttons-container">
                 <!-- Answer buttons will be dynamically generated here -->
@@ -37,23 +37,21 @@
         </section>
 
         <section id="endGameArea" style="display: none;">
-            <h2>Quiz Over!</h2>
-            <p id="finalScoreText">Your final score is: Z</p>
-            <button id="playAgainButton">Play Again</button>
+            <h2>สิ้นสุดเกม!</h2>
+            <p id="finalScoreText">คะแนนสุดท้ายของคุณคือ: Z</p>
+            <button id="playAgainButton">เล่นอีกครั้ง</button>
         </section>
 
         <section id="scoreboardArea">
-            <h2>High Scores</h2>
+            <h2>ตารางคะแนน</h2>
             <ul id="scoreboardList">
                 <!-- Scoreboard items will be dynamically generated here -->
-                <li>Player 1 - 15/20</li>
-                <li>Player 2 - 10/20</li>
             </ul>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 Coffee Quiz Masters. Powered by Coffee Company insights.</p>
+        <p>&copy; 2024 ผู้เชี่ยวชาญเกมตอบคำถามกาแฟ ขับเคลื่อนด้วยข้อมูลเชิงลึกจาก Coffee Company</p>
     </footer>
 
     <script src="script.js" defer></script>

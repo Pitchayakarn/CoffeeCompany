@@ -1,11 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
+
 /* General Body Styling */
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+    font-family: 'Nunito', Arial, sans-serif;
+    line-height: 1.7;
     margin: 0;
     padding: 20px;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #F5EFE6; /* Light Beige/Cream */
+    color: #3A2F2F; /* Dark Brown/Dark Gray for text */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,34 +15,38 @@ body {
 
 header {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 header h1 {
-    color: #333;
+    color: #6F4E37; /* Coffee Brown */
+    font-size: 2.5em;
+    font-weight: 700;
 }
 
 main {
     width: 100%;
-    max-width: 700px; /* Max width for main content */
+    max-width: 750px; /* Max width for main content */
 }
 
 /* Section Styling */
 section {
-    background-color: #fff;
-    margin-bottom: 20px;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background-color: #FFFFFF; /* White */
+    margin-bottom: 25px;
+    padding: 25px 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
 #gameSetupArea h2,
-#quizArea h2, /* Though not present in current HTML, good for consistency */
+#quizArea h2, 
 #endGameArea h2,
 #scoreboardArea h2 {
     text-align: center;
-    color: #555;
+    color: #6F4E37; /* Coffee Brown */
     margin-top: 0;
+    margin-bottom: 25px;
+    font-size: 1.8em;
 }
 
 /* Initially hidden sections */
@@ -50,92 +56,111 @@ section {
 }
 
 /* Text Element Styling */
-#questionNumber, #scoreDisplay {
-    font-size: 0.9em;
-    color: #666;
-    margin-bottom: 5px;
-}
-
 #quizHeader {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 15px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #eee;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #EFEBE9; /* Lighter shade for border */
+}
+
+#questionNumber, #scoreDisplay {
+    font-size: 1em;
+    color: #5D4037; /* Darker text accent */
+    font-weight: 600;
 }
 
 #questionText p {
-    font-size: 1.2em;
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 20px;
+    font-size: 1.5em; /* Larger question text */
+    font-weight: 600;
+    color: #3A2F2F;
+    margin-bottom: 25px;
     text-align: center;
+    min-height: 60px; /* Ensure space even for short questions */
 }
 
 #feedbackText {
-    margin-top: 15px;
-    font-weight: bold;
+    margin-top: 20px;
+    font-weight: 700; /* Bolder feedback */
     text-align: center;
+    font-size: 1.1em;
+    min-height: 25px; /* Reserve space for feedback */
 }
 
 #finalScoreText {
-    font-size: 1.1em;
+    font-size: 1.3em;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
+    color: #3A2F2F;
 }
 
 /* Button Styling */
 button {
     display: block;
-    width: auto; /* Auto width based on content and padding */
-    padding: 10px 20px;
-    margin: 10px auto; /* Center buttons */
-    background-color: #5cb85c;
+    width: auto; 
+    padding: 12px 25px; /* More padding */
+    margin: 15px auto; 
+    background-color: #6F4E37; /* Coffee Brown */
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px; /* More rounded corners */
     cursor: pointer;
-    font-size: 1em;
-    transition: background-color 0.3s ease;
+    font-size: 1.1em; /* Slightly larger font */
+    font-weight: 600;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
 }
 
 button:hover {
-    background-color: #4cae4c;
+    background-color: #A0522D; /* Sienna - accent for hover */
+    transform: translateY(-2px); /* Slight lift on hover */
 }
 
-/* Specifically for answer buttons if they need different layout */
+button:active {
+    transform: translateY(0px);
+}
+
+/* Specifically for answer buttons */
 #answerButtons {
     display: flex;
     flex-direction: column;
-    gap: 10px; /* Space between answer buttons */
+    gap: 12px; /* Increased space between answer buttons */
 }
 
 #answerButtons button {
-    width: 100%; /* Make answer buttons take full width of their container */
-    margin: 5px 0; /* Adjust margin for stacked buttons */
-    background-color: #007bff;
+    width: 100%; 
+    margin: 0; /* Remove individual margins, rely on gap */
+    background-color: #8D6E63; /* Lighter Brown for answer choices */
+    text-align: left;
+    padding: 15px 20px; /* More padding for easier clicking */
+    font-size: 1em;
 }
 
 #answerButtons button:hover {
-    background-color: #0056b3;
+    background-color: #A1887F; /* Lighter hover for answers */
 }
 
 /* Input Field Styling */
 #playerNameInput {
     display: block;
-    width: calc(100% - 22px); /* Adjust width considering padding and border */
-    padding: 10px;
-    margin: 10px auto 20px; /* Center input field */
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    width: calc(100% - 24px); 
+    padding: 12px;
+    margin: 10px auto 25px; 
+    border: 1px solid #D7CCC8; /* Softer border color */
+    border-radius: 8px;
     font-size: 1em;
+    font-family: 'Nunito', sans-serif;
+    color: #3A2F2F;
 }
 
 label[for="playerNameInput"] {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 8px;
     text-align: center;
-    font-weight: bold;
+    font-weight: 600;
+    font-size: 1.1em;
+    color: #5D4037;
 }
 
 /* Scoreboard Styling */
@@ -145,10 +170,16 @@ label[for="playerNameInput"] {
 }
 
 #scoreboardList li {
-    padding: 8px 0;
-    border-bottom: 1px solid #eee;
-    text-align: center;
-    font-size: 1em;
+    padding: 12px 10px; /* More padding */
+    border-bottom: 1px solid #EFEBE9;
+    text-align: left; /* Align text to left for better readability */
+    font-size: 1.05em;
+    font-weight: 600;
+    color: #3A2F2F;
+}
+
+#scoreboardList li:nth-child(odd) {
+    background-color: #FAF7F5; /* Very subtle striping for readability */
 }
 
 #scoreboardList li:last-child {
@@ -158,11 +189,11 @@ label[for="playerNameInput"] {
 /* Footer Styling */
 footer {
     text-align: center;
-    margin-top: 30px;
-    padding-top: 15px;
-    border-top: 1px solid #ccc;
-    font-size: 0.9em;
-    color: #666;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #D7CCC8; /* Softer border */
+    font-size: 0.95em;
+    color: #5D4037; /* Darker text accent */
     width: 100%;
-    max-width: 700px;
+    max-width: 750px;
 }
